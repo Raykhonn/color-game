@@ -1,0 +1,17 @@
+body{
+    background: rebeccapurple;
+     margin: 0px;
+}
+.titles{
+    margin: 48px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 16px;
+}
+.title{
+    height: 100px;
+    background: skyblue;
+    border: 5px solid #271494;
+    cursor: pointer;
+}  
